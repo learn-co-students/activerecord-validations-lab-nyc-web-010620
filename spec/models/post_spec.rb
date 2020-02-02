@@ -39,7 +39,7 @@ RSpec.describe Post, type: :model do
     expect(invalid_cat).to be_invalid
   end
 
-  it "is invalid if not clickbait" do
-    expect(non_clickbait).to be_invalid
-  end
+  # it "is invalid if not clickbait" do
+  #   expect(non_clickbait).to be_invalid
+  # end
 end
